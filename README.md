@@ -5,7 +5,6 @@
 * Rest-assured
 * TestNG
 * Jackson
-* Lombok
 * Maven
 * Log4j
 
@@ -22,6 +21,6 @@ That is why for running tests from IDE `<omdbApiKey/>` property should be filled
 
 Tests also can be run using the next command (Java and Maven should be installed):
 ```
-mvn test -DomdbApiKey=<omdb_api_key>
+mvn clean test -DomdbApiKey=<omdb_api_key>
 ```
 where `<omdb_api_key>` placeholder should be replaced with your API key.
